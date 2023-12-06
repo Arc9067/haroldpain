@@ -1,0 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/good-game");
+@import url("https://fonts.cdnfonts.com/css/space-grotesk");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hero {
+  background: url(./assets/Bg1.svg) center center no-repeat;
+  background-size: cover;
+}
+
+#about {
+  background: url(./assets/bg2.svg) center center no-repeat;
+  background-size: cover;
+}
