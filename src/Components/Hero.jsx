@@ -7,14 +7,25 @@ import emoji4 from "../assets/icons/emoji4.svg";
 
 function Hero() {
   return (
-    <section id="hero" className="py-32 lg:py-20 w-full min-h-screen">
-      <div className="container relative flex gap-12 justify-center h-full items-center flex-col">
-        <div className=" hidden lg:flex flex-col absolute left-0 top-0  gap-32">
-          <img src={emoji1} alt="" className="w-32 h-full justify-between" />
-          <h1 className="origin-top-left rotate-[-28.99deg] text-white text-6xl font-normal font-['Good-Game']">
+    <section
+      id="hero"
+      className="py-32 relative lg:static lg:py-20 w-full min-h-screen"
+    >
+      <div className="container lg:relative  flex gap-12 justify-center h-full items-center flex-col">
+        <div className=" h-screen flex flex-col absolute left-0 top-0  gap-32">
+          <img
+            src={emoji1}
+            alt=""
+            className="lg:w-32 w-24 h-full justify-between"
+          />
+          <h1 className="origin-top-left hidden lg:block rotate-[-28.99deg] text-white text-6xl font-normal font-['Good-Game']">
             HIDE THE PAIN
           </h1>
-          <img src={emoji2} alt="" className="w-32 h-full justify-between" />
+          <img
+            src={emoji2}
+            alt=""
+            className="lg:w-32 mt-12 w-24 h-full justify-between"
+          />
         </div>
         <img src={logo} alt="" />
         <div className="justify-start items-start gap-3 flex flex-wrap">
@@ -35,12 +46,20 @@ function Hero() {
             </div>
           </a>
         </div>
-        <div className="lg:flex hidden flex-col absolute right-0 top-0  gap-32">
-          <img src={emoji3} alt="" className="w-32 h-full justify-between" />
-          <h1 className="origin-top-left rotate-[-28.99deg] max-w-[300px]  text-white text-6xl font-normal font-['Good-Game']">
+        <div className=" h-screen flex flex-col absolute right-0 top-0  gap-32">
+          <img
+            src={emoji3}
+            alt=""
+            className="lg:w-32 w-24 h-full justify-between"
+          />
+          <h1 className="origin-top-left hidden lg:block max-w-[300px] rotate-[-28.99deg] text-white text-6xl font-normal font-['Good-Game']">
             BE A STRONG HOLDER{" "}
           </h1>
-          <img src={emoji4} alt="" className="w-32 h-full justify-between" />
+          <img
+            src={emoji4}
+            alt=""
+            className="lg:w-32 mt-12 w-24 h-full justify-between"
+          />
         </div>
       </div>
     </section>

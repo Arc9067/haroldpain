@@ -4,7 +4,7 @@ import tg from "../assets/icons/tg.svg";
 
 function Header() {
   return (
-    <header className="w-full py-3 absolute top-0">
+    <header className="w-full z-40 py-3 absolute top-0">
       <nav className="container flex justify-between items-center w-full">
         <a href="" className="">
           <div className="text-white text-3xl font-normal font-['Good-Game']">
