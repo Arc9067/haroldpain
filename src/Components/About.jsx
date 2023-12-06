@@ -24,12 +24,17 @@ function About() {
           <article className="flex flex-col lg:flex-row lg:w-[80%] gap-10 items-center">
             <img src={anime1} alt="" />
             <div className=" text-white text-base font-normal font-['Space Grotesk'] leading-loose tracking-tight">
-              The project is fully decentralized and community based. We just do
-              our best to keep everyone together as an army. If you want to do
-              something then do it, if someone asks for a hand out you can tell
-              them that Pepe never paid for a thing. The project is fully
-              decentralized and community based. The project is fully
-              decentralized and community based. We just do our best to keep{" "}
+              Harold, the internet's favorite meme-lord and master of hiding his
+              pain, has finally taken the plunge into the world of
+              cryptocurrency. Introducing: HaroldCoin, the token that promises
+              to "bring joy and laughter to the blockchain, one transaction at a
+              time." <br />
+              <br /> Harold, ever the pragmatist, knows that life can be a
+              rollercoaster of emotions, and with the crypto market being no
+              exception, he wants to offer investors a way to laugh through the
+              tears. "HaroldCoin is more than just an investment," he explains,
+              "it's a community, a way of life. It's about embracing the
+              absurdity of it all and finding humor in the midst of the chaos."
             </div>
           </article>
           <div
@@ -41,12 +46,12 @@ function About() {
                 <img src={abt1} alt="" />
                 <div className="flex-col justify-start items-start gap-2 inline-flex">
                   <div className="text-white text-3xl font-normal font-['Good-Game']">
-                    TRANSPARENCY & TRUST
+                    No rug pulls, just laughs!
                   </div>
                   <div className="w-96 text-white text-base font-normal font-['Space Grotesk'] leading-7 tracking-tight">
-                    The project is fully decentralized and community based. We
-                    just do our best to keep everyone together as an army. If
-                    you want to do{" "}
+                    Majority of LP locked in multi-sig & some burned for good
+                    measure. Contract locked with EverOwn for extra security.
+                    Safe & sound, ready to laugh our way to the moon!
                   </div>
                 </div>
               </article>
@@ -54,28 +59,19 @@ function About() {
                 <img src={abt2} alt="" />
                 <div className="flex-col justify-start items-start gap-2 inline-flex">
                   <div className="text-white text-3xl font-normal font-['Good-Game']">
-                    TRANSPARENCY & TRUST
+                    Fueling our laughter with every trade!
                   </div>
                   <div className="w-96 text-white text-base font-normal font-['Space Grotesk'] leading-7 tracking-tight">
-                    The project is fully decentralized and community based. We
-                    just do our best to keep everyone together as an army. If
-                    you want to do{" "}
+                    With every HaroldCoin transaction, 2% automatically gets
+                    added to our treasury wallet. This isn't just chump change –
+                    it's the fuel that powers our marketing campaigns and drives
+                    the development of amazing utilities. So not only are you
+                    laughing all the way to the bank, you're also contributing
+                    to the future growth and success of HaroldCoin. It's a
+                    win-win situation, folks!
                   </div>
                 </div>
               </article>{" "}
-              <article className="flex gap-12 flex-col lg:flex-row items-start">
-                <img src={abt3} alt="" />
-                <div className="flex-col justify-start items-start gap-2 inline-flex">
-                  <div className="text-white text-3xl font-normal font-['Good-Game']">
-                    TRANSPARENCY & TRUST
-                  </div>
-                  <div className="w-96 text-white text-base font-normal font-['Space Grotesk'] leading-7 tracking-tight">
-                    The project is fully decentralized and community based. We
-                    just do our best to keep everyone together as an army. If
-                    you want to do{" "}
-                  </div>
-                </div>
-              </article>
             </div>
             <img
               src={logo}
