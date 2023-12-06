@@ -8,7 +8,7 @@ function Header() {
       <nav className="container flex justify-between items-center w-full">
         <a href="" className="">
           <div className="text-white text-3xl font-normal font-['Good-Game']">
-            HEROLD
+            HAROLD
           </div>
         </a>
 
