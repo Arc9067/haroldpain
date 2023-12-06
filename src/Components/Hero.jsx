@@ -9,7 +9,7 @@ function Hero() {
   return (
     <section
       id="hero"
-      className="py-32 relative lg:static lg:py-20 w-full min-h-screen"
+      className="py-14 relative lg:static lg:py-20 w-full min-h-screen"
     >
       <div className="container lg:relative  flex gap-12 justify-center h-full items-center flex-col">
         <div className=" h-screen flex flex-col absolute left-0 top-0  gap-32">
