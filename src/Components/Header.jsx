@@ -24,17 +24,23 @@ function Header() {
           </li>
         </ul>
         <div className="w-24 h-10 justify-start items-start gap-3 inline-flex">
-          <div className="w-10 h-10 p-2 bg-[#5FFC67] rounded-lg justify-center items-center flex">
+          <a
+            href="https://twitter.com/HaroldisPainles"
+            className="w-10 h-10 p-2 bg-[#5FFC67] rounded-lg justify-center items-center flex"
+          >
             <div className="w-6 h-6 relative flex-col justify-start items-start flex">
               <img src={x} alt="" />
             </div>
-          </div>
-          <div className="w-10 h-10 p-2 bg-[#5FFC67] rounded-lg justify-center items-center flex">
+          </a>
+          <a
+            href="https://t.me/HaroldCanHidePain"
+            className="w-10 h-10 p-2 bg-[#5FFC67] rounded-lg justify-center items-center flex"
+          >
             <div className="w-6 h-6 relative flex-col justify-start items-start flex">
               {" "}
               <img src={tg} alt="" />
             </div>
-          </div>
+          </a>
         </div>
       </nav>
     </header>

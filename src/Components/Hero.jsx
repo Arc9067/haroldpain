@@ -18,16 +18,22 @@ function Hero() {
         </div>
         <img src={logo} alt="" />
         <div className="justify-start items-start gap-3 flex flex-wrap">
-          <div className="px-8 py-4 bg-[#5FFC67] rounded shadow justify-center items-center gap-2.5 flex">
+          <a
+            href="https://t.me/HaroldCanHidePain"
+            className="px-8 py-4 bg-[#5FFC67] rounded shadow justify-center items-center gap-2.5 flex"
+          >
             <div className="text-black text-sm font-normal font-['Good-Game']">
-              Launch on Telegram
+              Join Telegram
             </div>
-          </div>
-          <div className="px-8 py-4 bg-neutral-200 rounded shadow justify-center items-center gap-2.5 flex">
+          </a>
+          <a
+            href="https://twitter.com/HaroldisPainles"
+            className="px-8 py-4 bg-neutral-200 rounded shadow justify-center items-center gap-2.5 flex"
+          >
             <div className="text-black text-sm font-normal font-['Good-Game']">
-              Launch on Telegram
+              Follow Twitter
             </div>
-          </div>
+          </a>
         </div>
         <div className="lg:flex hidden flex-col absolute right-0 top-0  gap-32">
           <img src={emoji3} alt="" className="w-32 h-full justify-between" />
